@@ -7,11 +7,11 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-# 🛒 POS & E-Commerce App (Laravel 11)
+# POS & E-Commerce App (Laravel 11)
 
 Aplikasi Point of Sale (POS) dan Toko Online sederhana namun powerfull yang dibangun menggunakan Laravel 11. Proyek ini mencakup alur lengkap dari manajemen produk oleh admin hingga proses checkout dan riwayat pesanan oleh pelanggan.
 
-## ✨ Fitur Utama
+## Fitur Utama
 
 - **Authentication & Roles**: Menggunakan Laravel Breeze. Membedakan akses antara `Admin` (Dashboard) dan `Customer` (Katalog & Riwayat).
 - **Product Management**: CRUD Produk dengan fitur *Soft Deletes* untuk menjaga integritas data pesanan.
@@ -21,7 +21,7 @@ Aplikasi Point of Sale (POS) dan Toko Online sederhana namun powerfull yang diba
 - **Admin Dashboard**: Ringkasan pesanan masuk (Antrean Proses) dan laporan pendapatan.
 - **Security**: Dilengkapi dengan custom Middleware `IsAdmin` untuk memproteksi akses dashboard.
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 - **Framework**: [Laravel 11](https://laravel.com)
 - **Frontend**: Tailwind CSS & Blade Templating
@@ -29,21 +29,17 @@ Aplikasi Point of Sale (POS) dan Toko Online sederhana namun powerfull yang diba
 - **Auth**: Laravel Breeze (Blade Stack)
 - **Database**: MySQL / PostgreSQL
 
-## 🚀 Cara Instalasi
+## Cara Instalasi
 
-1. **Clone repositori:**
-   git clone [https://github.com/username-anda/pos-laravel-app.git](https://github.com/username-anda/pos-laravel-app.git)
-   cd pos-laravel-app
-
-2. **PHP & JS**
+1. **PHP & JS**
     composer install
     npm install && npm run dev
 
-3. **.env**
+2. **.env**
     cp .env.example .env
     php artisan key:generate
 
-4. **Migrasi**
+3. **Migrasi**
     php artisan migrate --seed
 
 ## About Laravel
